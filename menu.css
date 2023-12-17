@@ -1,0 +1,576 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header5 img {
+    display: none;
+  }
+  .main-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .first-card {
+    padding: 40px 120px 40px 40px;
+  }
+}
+@media (max-width: 1200px) {
+  .first-card {
+    padding: 40px 120px 40px 40px;
+  }
+  .header5 {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .first-card {
+    padding: 40px 120px 40px 40px;
+  }
+  .header4 img {
+    display: none;
+  }
+  .header-card {
+    display: none;
+  }
+  .header-span img {
+    display: none;
+  }
+  .header-nav {
+    display: none;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .header5 img {
+    display: none;
+  }
+  .hiro-main {
+    width: 500px;
+  }
+  .hiro-top {
+    width: 420px;
+  }
+  .hiro-date {
+    width: 440px;
+  }
+  .hiro-btn button {
+    width: 442px;
+  }
+  .hiro-contents {
+    width: 496px;
+  }
+  .hiro-content {
+    width: 496px;
+  }
+
+  .hiro-menui {
+    gap: 325px;
+  }
+  .hiro-menuu {
+    gap: 268px;
+  }
+  .hiro-menup {
+    gap: 301px;
+  }
+  .hiro-contents h1 {
+    padding: 0;
+    padding: 10px 0;
+  }
+  .hiro-content {
+    height: 318px;
+  }
+  .mein {
+    flex-direction: column-reverse;
+  }
+  .mein-text {
+    text-align: center;
+  }
+  .mein-text p {
+    width: 840px;
+  }
+  .mein-text h1 {
+    padding-top: 20px;
+  }
+  .car-menu {
+    flex-direction: column;
+  }
+  .card-card {
+    display: flex;
+    background-size: cover;
+    width: 100%;
+  }
+  .car-card2 img {
+    display: none;
+  }
+  .car-card3 {
+    display: none;
+  }
+  .car-card {
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    height: 620px;
+  }
+  .card-card img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .header5 img {
+    display: none;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 992px) {
+  .hiro {
+    flex-direction: column;
+  }
+  .mein-svg {
+    display: none;
+  }
+  .hiro-content {
+    margin-top: 29px;
+  }
+  .hiro-menui {
+    gap: 316px;
+  }
+  .first {
+    flex-direction: column;
+  }
+  .first {
+    padding-top: 70px;
+  }
+  .first-card {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .header-text a {
+    padding: 0px 7px;
+  }
+
+  .hero-text svg {
+    width: 571.999px;
+  }
+  .hero-card img {
+    padding-top: 0;
+  }
+  .mein-img img {
+    width: 100%;
+  }
+  .mein-text p {
+    width: 683px;
+  }
+  .footer {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .footer-card h5 {
+    padding-top: 7px;
+  }
+  .footer-card h4 {
+    padding-top: 15px;
+  }
+  .footer-tel {
+    padding-top: 15px;
+  }
+  .footer-card3 {
+    padding-top: 15px;
+  }
+  .footer-tel h5 {
+    padding-left: 0;
+  }
+  .footer-card3 img {
+    margin-top: 7px;
+  }
+  .footer-card4 h1 {
+    padding-top: 15px;
+  }
+  .footer-top p {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .footer-top {
+    padding-top: 5px;
+  }
+}
+@media (max-width: 576px) {
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0;
+  }
+  .hero-text svg {
+    width: 479px;
+  }
+  .mein-text p {
+    width: 509px;
+  }
+  .mein-text h1 {
+    padding-top: 5px;
+  }
+  .mein-text p {
+    padding-top: 7px;
+  }
+  .auto-text h1 {
+    font-size: 34px;
+  }
+  .auto-text p {
+    font-size: 18px;
+    padding: 15px 0 7px 0;
+  }
+  #auto {
+    margin-top: 70px;
+  }
+  #table {
+    padding-top: 39px;
+  }
+  .table-menu {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .home-img h1 {
+    font-size: 20px;
+  }
+  .first-img img {
+    width: 449px;
+  }
+  .first-card {
+    margin-top: 36px;
+  }
+  .first-card {
+    padding: 23px 100px 35px 35px;
+  }
+  .footer-cards p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 451px) {
+  #hero {
+    height: 93vh;
+  }
+  .hero-text svg {
+    width: 407px;
+  }
+  .hiro-main {
+    width: 447px;
+  }
+
+  .hero-card img {
+    width: 25px;
+    height: 44px;
+    padding-top: 0;
+  }
+  .hiro-top {
+    width: 373px;
+    height: 86px;
+  }
+  .hiro-date {
+    width: 388px;
+    height: 54px;
+  }
+  .hiro-btn button {
+    width: 392px;
+    height: 54px;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-left: 43px;
+  }
+  .hiro-content {
+    margin-top: 10px;
+  }
+  .hiro-content {
+    width: 430px;
+  }
+  .hiro-menui {
+    gap: 223px;
+  }
+  .hiro-menuu {
+    gap: 166px;
+  }
+  .hiro-menup {
+    gap: 200px;
+  }
+  .hiro-contents {
+    width: 425px;
+  }
+  .mein-text p {
+    width: 398px;
+  }
+  .first-img img {
+    width: 433px;
+  }
+  .first-card {
+    padding: 13px 25px 19px 17px;
+  }
+  .footer-cards p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 400px) {
+  .hiro-main {
+    width: 384px;
+  }
+  .hero-text svg {
+    width: 362px;
+  }
+  .hero-card img {
+    width: 19px;
+    height: 37px;
+  }
+  .hiro-card {
+    width: 155px;
+    height: 60px;
+  }
+  .hiro-card span {
+    font-size: 19px;
+    padding: 0 6px 0 16px;
+  }
+  .hiro-card h5 {
+    font-size: 13px;
+  }
+  .hiro-card2 {
+    width: 155px;
+  }
+  .hiro-card2 span {
+    font-size: 19px;
+    padding: 0 6px 0 16px;
+  }
+  .hiro-card2 h5 {
+    font-size: 13px;
+  }
+  .hiro-top {
+    width: 309px;
+    height: 81px;
+  }
+  .hiro-left {
+    margin-left: 0;
+  }
+  .hiro-cards {
+    padding: 50px 0 0 25px;
+  }
+  .hiro-top {
+    margin-left: 25px;
+  }
+  .hiroo h1 {
+    font-size: 18px;
+    padding: 18px 0 0 25px;
+  }
+  .hiro-inp {
+    padding-left: 25px;
+  }
+  .hiro-date {
+    width: 326px;
+    margin-left: 25px;
+  }
+  .hiro-btn button {
+    width: 330px;
+    margin-left: 25px;
+  }
+  .hiro-content {
+    width: 386px;
+  }
+  .hiro-contents {
+    width: 386px;
+  }
+  .hiro-menui {
+    gap: 181px;
+  }
+  .hiro-menup {
+    gap: 188px;
+  }
+  .mein-text p {
+    width: 352px;
+  }
+  .table-menu {
+    flex-wrap: wrap;
+    gap: 22px;
+  }
+  #home {
+    height: 158px;
+    margin-top: 40px;
+  }
+  .home-img {
+    text-align: center;
+    padding-top: 29px;
+    font-size: 20px;
+  }
+  .home-img img {
+    width: 50px;
+  }
+  .home-img h1 {
+    font-size: 16px;
+  }
+  .first-img img {
+    width: 383px;
+  }
+  .first-card {
+    padding: 4px 10px 2px 9px;
+  }
+  .first-card {
+    margin-top: 50px;
+  }
+  .hero-text svg {
+    width: 346px;
+  }
+  .hiro-content {
+    width: 350px;
+  }
+  .hiro-p p {
+    font-size: 19px;
+  }
+  .hiro-menui {
+    gap: 169px;
+  }
+  .hiro-menuu {
+    gap: 143px;
+  }
+  .hiro-menup {
+    gap: 156px;
+  }
+  .hiro-contents {
+    width: 350px;
+  }
+}
+@media (max-width: 376px) {
+  .hiro-main {
+    width: 373px;
+  }
+  .hiro-p p {
+    font-size: 20px;
+    padding-top: 15px;
+  }
+  .hiro-content {
+    width: 366px;
+    height: 301px;
+  }
+  .hiro-contents {
+    width: 360px;
+  }
+  .hiro-menui {
+    gap: 169px;
+  }
+  .hiro-menuu {
+    gap: 144px;
+  }
+  .hiro-menup {
+    gap: 161px;
+  }
+  .first-img img {
+    width: 348px;
+  }
+  .first-card h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+  }
+  .first-card input {
+    width: 272px;
+    height: 34px;
+    margin: 10px 0;
+  }
+  .first-btn button {
+    width: 145px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .hero-text svg {
+    width: 292px;
+  }
+}
+@media (max-width: 320px) {
+  .hiro-main {
+    width: 315px;
+  }
+  .hiro-cards {
+    padding: 25px 0 0 0px;
+  }
+  .hiro-top {
+    margin-left: 0;
+    width: 293px;
+    height: 81px;
+  }
+  .hiroo h1 {
+    font-size: 18px;
+    padding-left: 0;
+  }
+  .hiro-you h1 {
+    font-size: 18px;
+    padding-left: 0;
+    padding-top: 14px;
+  }
+  .hiro-date {
+    width: 314px;
+    margin-left: 0;
+  }
+  .hiro-btn button {
+    width: 314px;
+    margin-left: 0;
+  }
+  .hiro-main {
+    margin-top: 38px;
+    height: 549px;
+  }
+  .hiro-content {
+    width: 300px;
+    height: 301px;
+  }
+  .hiro-contents {
+    width: 300px;
+  }
+  .hiro-content p span {
+    font-size: 16px;
+  }
+  .hiro-menui {
+    gap: 98px;
+  }
+  .hiro-menuu {
+    gap: 32px;
+  }
+  .hiro-menup {
+    gap: 45px;
+  }
+  .mein-text p {
+    width: 293px;
+  }
+  .mein-text h1 {
+    font-size: 32px;
+  }
+  .mein-text p {
+    font-size: 14px;
+    padding-top: 5px;
+  }
+  .auto-text h1 {
+    font-size: 22px;
+  }
+  .first-img img {
+    width: 312px;
+  }
+  .first-btn button {
+    width: 114px;
+    height: 40px;
+    font-size: 12px;
+  }
+  #footer {
+    padding-top: 20px;
+  }
+  .footer-cards p {
+    font-size: 5px;
+  }
+  .footer-cards2 h5 {
+    font-size: 5px;
+  }
+  .footer-cards2 h6 {
+    font-size: 5px;
+  }
+  .header {
+    flex-direction: column;
+  }
+}
+
+/* * {
+  border: 1px solid red;
+} */

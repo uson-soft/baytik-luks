@@ -1,0 +1,414 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .main-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1200px) {
+  .hero-con {
+    flex-direction: column;
+  }
+  .hiro-img img {
+    position: absolute;
+    top: 386px;
+  }
+  .main h1 {
+    padding-top: 150px;
+    text-align: center;
+  }
+  .main-menu h1 {
+    padding-top: 0;
+    text-align: center;
+  }
+  .main-menu h2 {
+    text-align: center;
+  }
+  .main-mein {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .hero {
+    margin-top: 30px;
+  }
+  .hiro-img img {
+    position: absolute;
+    top: 516px;
+  }
+  .chat img {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .first-card {
+    padding: 40px 120px 40px 40px;
+  }
+  .header-card {
+    display: none;
+  }
+  .header-nav {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .header-span {
+    display: none;
+  }
+  .first {
+    flex-direction: column;
+  }
+  .first {
+    padding-top: 70px;
+  }
+  .first-card {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .header-span {
+    display: none;
+  }
+  .footer {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .footer-card h5 {
+    padding-top: 7px;
+  }
+  .footer-card h4 {
+    padding-top: 15px;
+  }
+  .footer-tel {
+    padding-top: 15px;
+  }
+  .footer-card3 {
+    padding-top: 15px;
+  }
+  .footer-tel h5 {
+    padding-left: 0;
+  }
+  .footer-card3 img {
+    margin-top: 7px;
+  }
+  .footer-card4 h1 {
+    padding-top: 15px;
+  }
+  .footer-top p {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .footer-top {
+    padding-top: 5px;
+  }
+  .header-text a {
+    padding: 0 20px;
+    transition: 0.4s;
+  }
+  .hero {
+    width: 100%;
+  }
+  .hiro-img img {
+    width: 95%;
+    height: 700px;
+  }
+  .header-text a {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 576px) {
+  .header4 img {
+    width: 150px;
+  }
+  .first-img img {
+    width: 449px;
+  }
+  .first-card {
+    margin-top: 36px;
+  }
+  .first-card {
+    padding: 23px 100px 35px 35px;
+  }
+  .footer-cards p {
+    font-size: 10px;
+  }
+  .footer-main hr {
+    margin-top: 51px;
+  }
+  .footer-nav p {
+    padding-top: 7px;
+  }
+  .header-span {
+    display: none;
+  }
+  .header-text {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .first-card {
+    width: 331px;
+    height: 382px;
+  }
+}
+@media (max-width: 451px) {
+  .header4 img {
+    display: none;
+  }
+  .first-img img {
+    width: 433px;
+  }
+  .first-card {
+    padding: 13px 25px 19px 17px;
+  }
+  .footer-cards p {
+    font-size: 12px;
+  }
+  .hero h1 {
+    font-size: 31px;
+    padding: 550px 0 0 23px;
+  }
+  .hero-card {
+    padding-left: 23px;
+  }
+  .hero-card img {
+    width: 30px;
+  }
+  .hero-card h3 {
+    font-size: 28px;
+  }
+  .hero-card h2 {
+    font-size: 32px;
+  }
+  .first-card h1 {
+    font-size: 18px;
+    padding: 20px 0 0 20px;
+  }
+  .first-card input {
+    width: 272px;
+    height: 58px;
+    margin: 30px 0 0 25px;
+  }
+  .first-btn button {
+    width: 162px;
+    height: 49px;
+    font-size: 17px;
+    margin: 20px 0 0 25px;
+  }
+  .first-card {
+    width: 331px;
+    height: 340px;
+  }
+}
+@media (max-width: 400px) {
+  .header4 img {
+    display: none;
+  }
+  .first-img img {
+    width: 383px;
+  }
+  .first-card {
+    padding: 4px 10px 2px 9px;
+  }
+  .first-card {
+    margin-top: 50px;
+  }
+  .header-text a {
+    font-size: 13px;
+    padding: 0 5px;
+  }
+}
+@media (max-width: 376px) {
+  .first-img img {
+    width: 348px;
+  }
+  .first-card h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+  }
+  .first-card input {
+    width: 272px;
+    height: 34px;
+    margin: 10px 0;
+  }
+  .first-btn button {
+    width: 145px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .main h1 {
+    font-size: 29px;
+    padding-top: 127px;
+  }
+  .header4 img {
+    width: 200px;
+  }
+  .main-card {
+    width: 84px;
+    height: 37px;
+  }
+  .main-card h4 {
+    font-size: 12px;
+  }
+  .main-card2 {
+    width: 84px;
+    height: 37px;
+  }
+  .main-card2 h4 {
+    font-size: 12px;
+  }
+  .main-card3 {
+    width: 84px;
+    height: 37px;
+  }
+  .main-card3 h4 {
+    font-size: 12px;
+  }
+  .hiro-card {
+    width: 84px;
+    height: 37px;
+  }
+  .hiro-card h4 {
+    font-size: 12px;
+  }
+  .main-cards {
+    width: 84px;
+    height: 37px;
+  }
+  .main-cards h4 {
+    font-size: 12px;
+  }
+  .main-cards h4 {
+    width: 84px;
+    height: 37px;
+  }
+  .main-cards2 {
+    width: 84px;
+    height: 37px;
+  }
+  .main-cards h4 {
+    font-size: 12px;
+  }
+  .main-cards3 {
+    width: 84px;
+    height: 37px;
+  }
+  .main-cards3 h4 {
+    font-size: 12px;
+  }
+  .main-block {
+    width: 144px;
+    height: 37px;
+  }
+  .main-block h4 {
+    font-size: 12px;
+  }
+  .hero h1 {
+    font-size: 28px;
+    padding: 570px 0 0 23px;
+  }
+  .hiro-img img {
+    height: 656px;
+  }
+  .first-img img {
+    width: 323px;
+  }
+  .first-card {
+    margin-top: 27px;
+  }
+  .first-card input {
+    width: 260px;
+    height: 50px;
+    margin: 10px 0 10px 25px;
+  }
+  .first-btn button {
+    width: 134px;
+    height: 43px;
+    font-size: 13px;
+    margin: 10px 0 0 25px;
+  }
+  .first-card {
+    width: 331px;
+    height: 327px;
+  }
+  .header4 img {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .first-img img {
+    width: 312px;
+  }
+  .first-btn button {
+    width: 114px;
+    height: 40px;
+    font-size: 12px;
+  }
+  #footer {
+    padding-top: 20px;
+  }
+  .footer-cards p {
+    font-size: 5px;
+  }
+  .footer-cards2 h5 {
+    font-size: 5px;
+  }
+  .footer-cards2 h6 {
+    font-size: 5px;
+  }
+  .header {
+    flex-direction: column;
+  }
+  #first {
+    height: 65vh;
+  }
+  .hero h1 {
+    font-size: 25px;
+    padding: 570px 0 0 23px;
+  }
+  .hero h1 {
+    font-size: 24px;
+    padding: 570px 0 0 23px;
+  }
+  .hero-card img {
+    width: 25px;
+  }
+  .hero-card h3 {
+    font-size: 23px;
+  }
+  .hero-card h2 {
+    font-size: 26px;
+  }
+  .first-img img {
+    width: 273px;
+  }
+  .first-card h1 {
+    font-size: 15px;
+  }
+  .first-card input {
+    width: 214px;
+    height: 43px;
+  }
+  .first-card {
+    width: 279px;
+    height: 289px;
+  }
+  .first-btn button {
+    width: 106px;
+    height: 38px;
+    font-size: 11px;
+  }
+  .header-text a {
+    padding: 0 1px;
+  }
+  .header4 img {
+    display: none;
+  }
+}
