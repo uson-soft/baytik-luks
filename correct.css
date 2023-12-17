@@ -16,6 +16,7 @@ buttun {
 body {
   font-family: "Open Sans", sans-serif;
   background: white;
+  cursor: grab;
 }
 
 ::-webkit-scrollbar {
@@ -27,7 +28,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(110, 115, 131);
+  background: yellow;
   border-radius: 10px;
 }
 
@@ -196,7 +197,18 @@ body {
 .hiro-card {
   width: 229px;
   height: 60px;
-  background: #253659;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+}
+
+.hiro-card h5 {
+  color: #253659;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hiro-card:hover {
 }
 
 .hiro-cards {
@@ -215,15 +227,33 @@ body {
 }
 
 .hiro-card span {
-  color: #009ee3;
+  color: #253659;
   font-size: 25px;
   padding: 0 10px 0 20px;
 }
 
-.hiro-card h5 {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 600;
+.hiro-card2 span:hover {
+  color: #009ee3;
+}
+
+.hiro-card:hover {
+  background: #253659;
+  cursor: grab;
+  & * {
+    color: white;
+  }
+}
+
+.hiro-card2:hover {
+  background: #253659;
+  cursor: grab;
+  & * {
+    color: white;
+  }
+}
+
+.hiro-card span:hover {
+  color: #009ee3;
 }
 
 .hiro-card2 {
@@ -300,32 +330,50 @@ body {
   width: 93px;
   height: 60px;
   border: 1px solid #253659;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hiro-cardd:hover {
+  background: #253659;
+  & * {
+    color: white;
+  }
 }
 
 .hiro-cardd h4 {
   color: #253659;
   font-size: 24px;
   font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
+
+/* .hiro-cardd h4:hover {
+  color: white;
+} */
 
 .hiro-cardd2 {
   width: 93px;
   height: 60px;
   border: 1px solid #253659;
-  background: #253659;
+  background: white;
   margin-left: 20px;
-}
-
-.hiro-cardd2 h4 {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.hiro-cardd2:hover {
+  background: #253659;
+  & * {
+    color: white;
+  }
+}
+
+.hiro-cardd2 h4 {
+  color: #253659;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .hiro-cardd3 {
@@ -333,15 +381,22 @@ body {
   height: 60px;
   border: 1px solid #253659;
   margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hiro-cardd3:hover {
+  background: #253659;
+  & * {
+    color: white;
+  }
 }
 
 .hiro-cardd3 h4 {
   color: #253659;
   font-size: 24px;
   font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .hiro-cardd4 {
@@ -349,6 +404,16 @@ body {
   height: 60px;
   background: rgba(37, 54, 89, 0.1);
   margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hiro-cardd4:hover {
+  background: #253659;
+  & * {
+    color: white;
+  }
 }
 
 .hiro-cardd4 h4 {
@@ -471,13 +536,18 @@ body {
   color: #000;
   font-size: 14px;
   font-weight: 400;
+  padding-left: 10px;
 }
 
 .hiro-pp p span {
   color: #009ee3;
   font-size: 14px;
   font-weight: 600;
-  text-decoration-line: underline;
+  padding-left: 5px;
+}
+
+.hiro-pp p span:hover {
+  text-decoration: underline;
 }
 
 .hiro-contents h1 {
@@ -649,7 +719,10 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 600;
-  text-decoration-line: underline;
+}
+
+.home-img h1:hover {
+  text-decoration: underline;
 }
 
 #first {
@@ -675,7 +748,8 @@ body {
   /* height: 420px; */
   background: rgba(37, 54, 89, 0.8);
   backdrop-filter: blur(2px);
-  padding: 40px 120px 40px 40px;
+  /* padding: 40px 120px 40px 40px; */
+  padding: 79px 106px 79px 106px;
 }
 
 .first-card {
